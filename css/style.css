@@ -1,0 +1,41 @@
+/* Mobile */
+@media only screen and (min-width: 767px) {
+    body{
+        font-size: 16px;
+    }
+    nav{
+        /* height: 50px;  */
+    }
+    
+    .mobile_click{
+        display: none;
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 991px) {
+    header h1 {
+        font-size: 2.3em;
+    }
+    nav{
+        flex-direction: row;
+    }
+    nav div{
+        padding-left: 40px;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        top: unset;
+    }
+    nav ul li{
+        border-bottom: unset;
+        padding: 0 40px 0 0;
+    }
+    #mobile_click{
+        display: none;
+    }
+
+}
+
