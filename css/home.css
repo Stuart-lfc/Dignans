@@ -7,7 +7,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     position: relative;
-    color: rgb(124, 255, 1);
+    color: rgb(255, 255, 255);
     background-color: rgb(255, 255, 255)
 }
 a {
@@ -28,7 +28,7 @@ nav {
     justify-content: space-between;
     background-color: #ff0000;
     font-family: Arial, Helvetica, sans-serif;
-    border-bottom: 1px solid rgb(255, 1, 1);
+    border-bottom: 1px solid rgb(255, 0, 0);
     z-index: 1000;
 }
 
@@ -68,7 +68,7 @@ nav ul {
 #mobile_click{
     position: absolute;
     right: 10px;
-    color: rgb(255, 1, 1);;
+    color: rgb(0, 0, 0);;
     font-size: 40px;
     cursor: pointer;
 }
@@ -106,7 +106,7 @@ header {
     background-color: #f3f3f3;
 }
 header h1 {
-    color: rgb(255, 1, 1);
+    color: rgb(255, 0, 0);
     font-size: 16px;
     text-shadow: 2px 2px 5px rgb(2, 2, 2);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -135,7 +135,7 @@ section div p {
 }
 
 .parallax {
-    background: url(/images/rakesh-sitnoor-qngRhua6IJc-unsplash.jpg) center/cover no-repeat fixed;
+    background: url() center/cover no-repeat fixed;
     height: 400px;
     background-size: cover;
     background-position: center;
